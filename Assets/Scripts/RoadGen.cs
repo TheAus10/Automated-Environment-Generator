@@ -6,21 +6,24 @@ public class RoadGen : MonoBehaviour
 {
 
     public GameObject[] roadPrefabs;        // holds types of roads
-    public Transform startPos;              // start of initial plane - needs to be somehow set to 0,0,0 always
+    public Vector3 nextCoords;              // starting coordinates of map
     int segmentLength = 505;                // length of 1 segment + 5 for initial length of start segment
-    int nextPos = 0;                        // value of next segment position on Z-axis
     int numSegments = 100;                  // number of segments user wants to place
 
     // Start is called before the first frame update
     void Start()
     {
-        for(int i = 0; i < numSegments; i++)
-        {
-            // setting position of next segment
-            nextPos += segmentLength;
 
-            // creating a new random piece at coords [0,0,nextPos]
-            Instantiate(roadPrefabs[Random.Range(0, roadPrefabs.Length)], new Vector3(startPos.position.x, startPos.position.y, startPos.position.z + nextPos), Quaternion.identity);
+        // setting start coords
+        nextCoords = new Vector3(0, 0, 0);
+
+        for (int i = 0; i < numSegments; i++)
+        {
+            // creating a new random piece at nextCoords
+            Instantiate(roadPrefabs[Random.Range(0, roadPrefabs.Length)], nextCoords, Quaternion.identity);
+
+            // setting position of next segment
+            nextCoords.z += segmentLength;
         }
     }
 
