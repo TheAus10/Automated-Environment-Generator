@@ -6,5 +6,5 @@ Unity game engine has been used for autonomous vehicle simulation software these
 - Jeremy Kracy (RawToaster)  
 - Austin Reeves (TheAus10)
 - Jonathan Sanchez (JonathanSanchezUNT)
-- James Colton Nicholas  
+- James Colton Nicholas (colto1000)
 - Waleed Ayyash (Waleed928)
