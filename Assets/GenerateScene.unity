@@ -255,6 +255,10 @@ MonoBehaviour:
   - {fileID: 5223017098444263241, guid: b4e08d21e308f45e28012f7373ab0b36, type: 3}
   - {fileID: 1968421025029498535, guid: 887c24dbaad861743b96474c7f4d0851, type: 3}
   - {fileID: 3006478140333547351, guid: b8e62e07d6fa564459978678104fe8d8, type: 3}
+  - {fileID: 2186091901216773994, guid: 86e97249c9668d2489d510336ca8890c, type: 3}
+  - {fileID: 4527592941349466110, guid: 5ee35ea666a6c428aaccd02b0ca32c0c, type: 3}
+  - {fileID: 5751798161391673154, guid: 649e8f0ecc3e74d7bb86bbc3f0e46532, type: 3}
+  - {fileID: 4183165212883862537, guid: d07ea88611a924a18b699992f7099cde, type: 3}
   nextCoords: {x: 0, y: 0, z: 0}
 --- !u!4 &812186938
 Transform:
