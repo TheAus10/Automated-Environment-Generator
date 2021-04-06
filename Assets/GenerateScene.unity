@@ -263,6 +263,8 @@ MonoBehaviour:
   - {fileID: 2779333482748954319, guid: 217fb7047f47e5a408d847f92b813ed3, type: 3}
   - {fileID: 7079171469538067098, guid: 8787a5a8173983a4ab2773514e825a75, type: 3}
   - {fileID: 3334682595229809612, guid: f5736b9b9ae268d478271c128d77dc7e, type: 3}
+  - {fileID: 653323898266082978, guid: 3d6ef90477bf0844c9bb81c917e39812, type: 3}
+  usedRoads: []
   nextCoords: {x: 0, y: 0, z: 0}
 --- !u!4 &812186938
 Transform:
