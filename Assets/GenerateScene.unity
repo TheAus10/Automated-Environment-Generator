@@ -264,8 +264,10 @@ MonoBehaviour:
   - {fileID: 7079171469538067098, guid: 8787a5a8173983a4ab2773514e825a75, type: 3}
   - {fileID: 3334682595229809612, guid: f5736b9b9ae268d478271c128d77dc7e, type: 3}
   - {fileID: 653323898266082978, guid: 3d6ef90477bf0844c9bb81c917e39812, type: 3}
-  usedRoads: []
+  ground: {fileID: 105158, guid: baf7bb04094c1fe4d994d728999eae1b, type: 3}
+  unusedRoads: []
   nextCoords: {x: 0, y: 0, z: 0}
+  groundCoords: {x: 0, y: 0, z: 0}
 --- !u!4 &812186938
 Transform:
   m_ObjectHideFlags: 0
