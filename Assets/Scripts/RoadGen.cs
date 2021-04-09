@@ -10,8 +10,8 @@ public class RoadGen : MonoBehaviour
     public List<GameObject> unusedRoads = new List<GameObject>();   // copy of roads that haven't been used yet
     public Vector3 nextCoords;                                      // coordinates of next road segment to be placed
     public Vector3 groundCoords;                                    // coordinates of next ground tile to be placed
-    int segmentLength = 505;                                        // length of 1 segment + 5 for initial length of start segment
-    int numSegments = 100;                                          // number of segments user wants to place
+    public int segmentLength = 505;                                 // length of 1 segment + 5 for initial length of start segment
+    public int numSegments = 100;                                   // number of segments user wants to place
 
     // Start is called before the first frame update
     void Start()
