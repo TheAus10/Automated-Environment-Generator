@@ -270,7 +270,7 @@ MonoBehaviour:
   nextCoords: {x: 0, y: 0, z: 0}
   groundCoords: {x: 0, y: 0, z: 0}
   segmentLength: 505
-  numSegments: 100
+  numSegments: 19
 --- !u!4 &812186938
 Transform:
   m_ObjectHideFlags: 0
