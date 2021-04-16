@@ -11,9 +11,10 @@ public class BuildingGen : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
         // picks a random building and spawns it at the SpawnPoint position that the script is attatched to
         int buildingNum = Random.Range(0, buildings.Length);
-        Instantiate(buildings[buildingNum], transform.position, Quaternion.identity);
+        Instantiate(buildings[buildingNum], transform.position, transform.rotation * Quaternion.Euler(0f, 180f, 0f));
     }
 
     // Update is called once per frame

@@ -43,24 +43,22 @@ public class RoadGen : MonoBehaviour
 
             // setting position of next segment
             nextCoords.z += segmentLength;
+
+            System.Console.WriteLine(index);
         }
 
-        groundCoords = new Vector3(-300.0f, -0.1f, -5.0f);
+        groundCoords = new Vector3(300.0f, -0.1f, 0.0f);
 
         // setting up ground outside of roads
-        for(float x = -300.0f; x < 300.0f; x += 7.5f)
+        
+        
+        for(float z = 0.0f; z < nextCoords.z + 1000; z += 510f)
         {
-            for(float z = -5.0f; z < (nextCoords.z + 10.0f); z += 7.5f)
-            {
-                // placing in ground tile
-                Instantiate(ground, groundCoords, Quaternion.identity);
+            // placing in ground tile
+            Instantiate(ground, groundCoords, Quaternion.identity);
 
-                // increasing z axis
-                groundCoords.z = z;
-            }
-
-            // increasing x axis
-            groundCoords.x = x;
+            // increasing z axis
+            groundCoords.z = z;
         }
 
     }
