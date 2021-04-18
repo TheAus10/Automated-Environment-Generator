@@ -17,9 +17,4 @@ public class BuildingGen : MonoBehaviour
         Instantiate(buildings[buildingNum], transform.position, transform.rotation * Quaternion.Euler(0f, 180f, 0f));
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
